@@ -7,11 +7,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int a, b, c;
-        System.out.println("Enter first AB length: ");
+        System.out.println("Enter  AB length: ");
         a = scan.nextInt();
-        System.out.println("Enter first AC length: ");
+        System.out.println("Enter  AC length: ");
         b = scan.nextInt();
-        System.out.println("Enter first BC length: ");
+        System.out.println("Enter  BC length: ");
         c = scan.nextInt();
 
         double surface = (double)(a + b + c)/2;
