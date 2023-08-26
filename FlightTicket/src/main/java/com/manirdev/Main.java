@@ -47,7 +47,7 @@ public class Main {
                 doubleWays = (discountedPrice * 0.20);
                 System.out.println("Double ways discount: " + doubleWays);
                 totalPrice = (discountedPrice - doubleWays)  * tripType;
-                System.out.printf("Total Price After DiscountAfter Discount: " + totalPrice);
+                System.out.printf("Total Price After Discount: " + totalPrice);
             }
             if (tripType == 1){
                 totalPrice = discountedPrice;
