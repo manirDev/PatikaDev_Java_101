@@ -10,7 +10,7 @@ public class SumEvenAndPowFour {
         while (!isOdd){
             System.out.println("Enter a number: ");
             int n = input.nextInt();
-            if (n % 2 != 0){
+                if (n % 2 != 0){
                 isOdd = true;
             }
             if (n % 4 == 0){
